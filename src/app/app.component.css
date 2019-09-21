@@ -1,0 +1,19 @@
+
+.header{
+    height:10vh;
+    /* box-shadow: 5px 10px 8px 1px cornflowerblue; */
+    background-color:rgb(55, 46, 230);
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    padding:0px;
+    margin:0px;
+    border: 0px;
+    top: 4px;
+}
+.content-data{
+    position: relative;
+    font-size: 40px;
+    top: 30px;
+}

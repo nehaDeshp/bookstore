@@ -1,0 +1,44 @@
+
+
+<div class="content-title">
+    <span>Customer Details</span>
+</div>
+<div class="customer-info">
+    <form>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Reference Name" class="inputtext form-control" [formControl]="ref_name">
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Company Name" class="inputtext form-control" [formControl]="company_name">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Contact Number" class="inputtext form-control" [formControl]="work_contact">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Enter Email Address" class="inputtext form-control" [formControl]="cell_contact">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Vendor Number" class="inputtext form-control" [formControl]="email_address">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter PO Number" class="inputtext form-control" [formControl]="company_address">
+        </div>
+        <div class="form-group">
+            <input type="submit" (click)="saveCustomerInfo()" class="btn btn-primary" value="Save">
+            <input type="submit" (click)="resetData()" class="btn btn-primary" value="Reset">
+        </div>
+        
+    </form> 
+</div>
+<div class="customer_controls">
+    <table *ngFor="let customer of customer_details_list">
+        <th>
+            <tr>
+                <td>Name</td>
+                <td>Contact Number</td>
+                <td>Organisation</td>
+            </tr>
+        </th>
+    </table>
+</div>

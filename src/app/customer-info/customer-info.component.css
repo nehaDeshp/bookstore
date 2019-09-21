@@ -1,0 +1,20 @@
+.customer-info{
+    position: relative;
+    display: flex;
+    /* border: 2px solid black; */
+    display:inline-flex;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    width: 50%;             
+}
+
+.inputtext{
+    width: 500px;
+    margin: 20px;
+}
+
+.btn-primary{
+    background-color: rgb(55, 46, 230);
+    border-color: rgb(55, 46, 230);
+    margin: 20px;
+    width: 230px;
+}

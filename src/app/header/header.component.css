@@ -1,0 +1,16 @@
+.container-fluid{
+    background-color: skyblue;
+    width:15vh;
+    height:100vh;
+    padding:0px;
+    margin:0px;
+    /* box-shadow: 5px 10px 8px 1px cornflowerblue; */
+}
+.navbar-nav{
+    list-style-type: none;
+    padding:0px;
+}
+img.icon_dimensions{
+    width:80%;
+    margin:10px;
+}
